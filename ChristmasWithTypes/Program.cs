@@ -7,10 +7,10 @@ namespace ChristmasWithTypes
         static void Main(string[] args)
         {
             var xmas = new Christmas();
-            Console.WriteLine("hi");
+            
             var xmasDay = Christmas.Day.Monday;
-            /*comment*/
-            //TODO set Santa's name to Kris Kringlexfgbxfgbsfxftgbhsdfsdf
+            
+            //TODO set Santa's name to Kris Kringle
             xmas.Santa = "Kris Kringle";
 
             //TODO Insert 3 presents you would like for xmas.  They must be strings
@@ -28,7 +28,7 @@ namespace ChristmasWithTypes
                 Console.WriteLine($"    {present}");
             }
 
-            Console.WriteLine($"\n We like to call Santa, {xmas.Santa}");
+            Console.WriteLine($"\nWe like to call Santa, {xmas.Santa}");
         }
     }
 }
